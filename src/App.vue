@@ -4,6 +4,7 @@
     <v-content>
       <Home />
     </v-content>
+    <Footer />
   </v-app>
 </template>
 
@@ -11,13 +12,15 @@
 import Vue from "vue";
 import Home from "./views/Home.vue";
 import Appbar from "./components/Appbar/Appbar.vue";
+import Footer from "./components/Footer/Footer.vue";
 
 export default Vue.extend({
   name: "App",
 
   components: {
     Home,
-    Appbar
+    Appbar,
+    Footer
   },
 
   data: () => ({
