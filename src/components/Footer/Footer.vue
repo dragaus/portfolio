@@ -1,9 +1,9 @@
 <template>
   <div>
-    <IconButton :click="() => goToPage('https://www.google.com')" iconDir="icon.png" />
-    <IconButton :click="() => goToPage('https://www.google.com')" iconDir="icon.png" />
-    <IconButton :click="() => goToPage('https://www.google.com')" iconDir="icon.png" />
-    <h6>Made by Francisco C. C. Rovira All rights reserved</h6>
+    <IconButton :click="() => goToPage('https://www.youtube.com/')" iconDir="Youtube.png" />
+    <IconButton :click="() => goToPage('https://www.linkedin.com/in/francisco-rovira/')" iconDir="Youtube.png" />
+    <IconButton :click="() => goToPage('https://www.google.com')" iconDir="Youtube.png" />
+    <h4>Made by Francisco C. C. Rovira All rights reserved</h4>
   </div>
 </template>
 
