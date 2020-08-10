@@ -18,6 +18,6 @@ describe('Footer.vue', () => {
     test('should render icon button for each contact form', () => {
         const wrapper = setup();
         const iconButtons = wrapper.findAllComponents(IconButton);
-        expect(iconButtons.length).toBe(3);
+        expect(iconButtons.length).toBe(4);
     });
 });

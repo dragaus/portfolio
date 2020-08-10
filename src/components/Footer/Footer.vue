@@ -1,9 +1,27 @@
 <template>
-  <div>
-    <IconButton :click="() => goToPage('https://www.youtube.com/')" iconDir="Youtube.png" />
-    <IconButton :click="() => goToPage('https://www.linkedin.com/in/francisco-rovira/')" iconDir="Youtube.png" />
-    <IconButton :click="() => goToPage('https://www.google.com')" iconDir="Youtube.png" />
-    <h4>Made by Francisco C. C. Rovira All rights reserved</h4>
+  <div class="nes-container is-rounded footer">
+    <h3>Contact me</h3>
+    <br />
+    <div class="icon-list">
+      <IconButton
+        :click="() => goToPage('https://github.com/dragaus')"
+        iconName="github"
+      />
+      <IconButton
+        :click="() => goToPage('https://www.linkedin.com/in/francisco-rovira/')"
+        iconName="linkedin"
+      />
+      <IconButton
+        :click="() => goToPage('https://www.google.com')"
+        iconName="youtube"
+      />
+      <IconButton
+        :click="() => goToPage('https://www.google.com')"
+        iconName="gmail"
+      />
+    </div>
+    <br />
+    <h6>Made by Francisco C. C. Rovira All rights reserved</h6>
   </div>
 </template>
 
@@ -27,4 +45,13 @@ export default Footer;
 </script>
 
 <style>
+.footer {
+  text-align: center;
+  background-color: #051014;
+  color: #85cb33;
+}
+.icon-list {
+  display: flex;
+  justify-content: center;
+}
 </style>

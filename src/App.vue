@@ -10,6 +10,7 @@
 
 <script lang="ts">
 import Vue from "vue";
+import "nes.css/css/nes.min.css";
 import Home from "./views/Home.vue";
 import Appbar from "./components/Appbar/Appbar.vue";
 import Footer from "./components/Footer/Footer.vue";
@@ -28,3 +29,9 @@ export default Vue.extend({
   })
 });
 </script>
+
+<style>
+body {
+  background-color: #06aed5;
+}
+</style>

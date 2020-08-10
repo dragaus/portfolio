@@ -1,7 +1,8 @@
 <template>
   <div class="home">
     <Presentation
-      portfolioName="Francisco C. C. Rovira"
+      portfolioName="Francisco Cuauhtemoc Castañeda Rovira"
+      nickName="Paco"
       miniResume="Mobile Game Developer"
     />
   </div>

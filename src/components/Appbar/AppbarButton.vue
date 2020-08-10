@@ -1,6 +1,6 @@
 <template>
-  <div @click="click">
-    <p ref="text-display">{{ text }}</p>
+  <div @click="click" class="appbar-button">
+    <p ref="text-display" :style="{ display: 'inline' }">{{ text }}</p>
   </div>
 </template>
 
@@ -23,3 +23,10 @@ const AppbarButton = Vue.extend({
 
 export default AppbarButton;
 </script>
+
+<style>
+.appbar-button {
+  display: inline;
+  margin: 20px;
+}
+</style>

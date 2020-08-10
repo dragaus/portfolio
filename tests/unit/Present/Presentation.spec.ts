@@ -20,8 +20,7 @@ describe('Presentation.vue', () => {
     test('should render name', () => {
         const portfolioName = 'Francisco';
         const wrapper = setup({ portfolioName });
-        const nameRender = wrapper.findComponent({ ref: 'name-renderer' });
-        expect(nameRender.text()).toBe(portfolioName);
+        expect(wrapper.props().portfolioName).toContain(portfolioName);
     });
 
     test('should render image', () => {
